@@ -1,10 +1,21 @@
 {
-  "name": "@moraes/nodejs-ts-library-starter",
-  "version": "1.0.0",
-  "description": "nodejs typescript library starter",
-  "main": "index.js",
-  "repository": "git@github.com:fernandomoraes/nodejs-ts-library-starter.git",
-  "author": "Fernando Moraes <fernandosdemoraes@gmail.com>",
-  "license": "MIT",
-  "private": true
+    "name": "@moraes/nodejs-ts-library-starter",
+    "version": "1.0.0",
+    "description": "nodejs typescript library starter",
+    "main": "index.js",
+    "repository": "git@github.com:fernandomoraes/nodejs-ts-library-starter.git",
+    "author": "Fernando Moraes <fernandosdemoraes@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "build:cjs": "tsc",
+        "build:esm": "tsc --outDir dist/esm --module ES2020",
+        "build": "rimraf dist && yarn build:cjs && yarn build:esm"
+    },
+    "devDependencies": {
+        "typescript": "^4.0.2"
+    },
+    "dependencies": {
+        "rimraf": "^3.0.2"
+    }
 }
