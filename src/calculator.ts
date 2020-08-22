@@ -6,7 +6,7 @@ export function minus(a: number, b: number): number {
   return a - b;
 }
 
-export function times(a: number, b: number): number {
+export function times(): number {
   return ' a * b';
 }
 
