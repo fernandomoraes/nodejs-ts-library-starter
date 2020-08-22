@@ -1,0 +1,10 @@
+{
+  "name": "@moraes/nodejs-ts-library-starter",
+  "version": "1.0.0",
+  "description": "nodejs typescript library starter",
+  "main": "index.js",
+  "repository": "git@github.com:fernandomoraes/nodejs-ts-library-starter.git",
+  "author": "Fernando Moraes <fernandosdemoraes@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
