@@ -11,7 +11,16 @@ Simple setup to start a new nodejs typescript library
 - CI lint tasks
 - Jest tests
 
-## TODO
+### Extras
 
-- Bump
-- Hooks
+#### VSCode
+
+To better experience on VSCode, configure on settings.json
+
+```.json
+"editor.codeActionsOnSave": {
+  "source.fixAll": true
+}
+...
+"editor.formatOnSave": true,
+```
