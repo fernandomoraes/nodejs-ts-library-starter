@@ -1,12 +1,12 @@
 {
-    "compilerOptions": {
-        "target": "ES2017",
-        "module": "commonjs",
-        "declaration": true,
-        "outDir": "dist/cjs",
-        "strict": true,
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
-    }
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "dist/cjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
 }
