@@ -6,5 +6,6 @@ Simple setup to start a new nodejs typescript library
 
 -   Editorconfig
 -   Prettier
--   Esling (airbn, typescript presets)
+-   Esling (airbn and typescript styles)
 -   CommonJS and ESM outputs
+-   CI lint tasks
