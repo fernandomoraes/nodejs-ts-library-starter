@@ -32,6 +32,7 @@
     "eslint-config-airbnb-typescript": "^9.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import-helpers": "^1.1.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.1.0",
@@ -51,5 +52,8 @@
   "lint-staged": {
     "*.{js,ts}": "yarn run eslint:fix",
     "*.{js,ts,css,md}": "yarn run prettier:fix"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
   }
 }
