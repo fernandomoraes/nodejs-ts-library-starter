@@ -7,7 +7,7 @@ export function minus(a: number, b: number): number {
 }
 
 export function times(a: number, b: number): number {
-  return 'a * b';
+  return ' a * b';
 }
 
 export function dividedBy(a: number, b: number): number {
