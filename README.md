@@ -10,6 +10,7 @@ Simple setup to start a new nodejs typescript library
 - CommonJS and ESM outputs
 - CI lint tasks
 - Jest tests
+- Git hooks
 
 ### Extras
 
